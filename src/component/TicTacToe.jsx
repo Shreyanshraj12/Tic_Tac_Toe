@@ -75,7 +75,7 @@ const handleReset = ()=>{
                 {renderSquare(8)}
             </div>
         </div>
-        <button onClick={handleReset}>Reset</button>
+        <button onClick={handleReset} className="rest">Reset</button>
         {winner && <div>{winner} is Winner of This Game.</div>}
         </>
     )
